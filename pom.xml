@@ -42,26 +42,6 @@
 	</build>
 	<repositories>
 		<repository>
-			<id>xdevmaven-snapshots</id>
-			<url>http://xdevmaven/repository/snapshots/</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>xdevmaven-releases</id>
-			<url>http://xdevmaven/repository/releases/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
 			<id>vaadin-addons</id>
 			<url>http://maven.vaadin.com/vaadin-addons</url>
 		</repository>
@@ -70,12 +50,12 @@
 		<dependency>
 			<groupId>com.xdev-software</groupId>
 			<artifactId>xdev-server-core</artifactId>
-			<version>3.1.0</version>
+			<version>3.0.3</version>
 		</dependency>
 		<dependency>
 			<groupId>com.xdev-software</groupId>
 			<artifactId>xdev-server-ui</artifactId>
-			<version>3.1.0</version>
+			<version>3.0.3</version>
 		</dependency>
 	</dependencies>
 	<properties>
